@@ -12,7 +12,7 @@ public class AwsElasticbeanstalkExampleApplication {
 	
 	@GetMapping("/status")
 	public String deploy() {
-		return "Application deployed to AWS Beanstalk...!!!";
+		return "Application deployed to AWS Beanstalk with GIT Utility...!!!";
 	}
 	
 	public static void main(String[] args) {
